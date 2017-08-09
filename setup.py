@@ -1,11 +1,11 @@
 from setuptools import setup
 
-setup(name='util_common',
+setup(name='utils_common',
       version='0.1',
-      description='The util_common joke in the world',
-      url='http://github.com/eriklangenborg-rs/util_common',
+      description='The utils_common joke in the world',
+      url='http://github.com/eriklangenborg-rs/utils_common',
       author='Erik Langenborg',
       author_email='none@example.com',
       license='MIT',
-      packages=['util_common'],
+      packages=['utils_common'],
       zip_safe=False)
