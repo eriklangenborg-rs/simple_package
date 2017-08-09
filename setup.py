@@ -1,7 +1,11 @@
 from setuptools import setup
 
-setup(
-    name='simple_package',    # This is the name of your PyPI-package.
-    version='0.1',                          # Update the version number for new releases
-    scripts=['helloworld']                  # The name of your scipt, and also the command you'll be using for calling it
-)
+setup(name='util_common',
+      version='0.1',
+      description='The util_common joke in the world',
+      url='http://github.com/eriklangenborg-rs/util_common',
+      author='Erik Langenborg',
+      author_email='none@example.com',
+      license='MIT',
+      packages=['util_common'],
+      zip_safe=False)
